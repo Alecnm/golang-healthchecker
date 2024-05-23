@@ -16,13 +16,13 @@ func main(){
 			&cli.StringFlag{
 				Name: "domain",
 				Aliases: []string{"d"},
-				Usage: "Domain name of the service to be checked",
+				Usage: "Domain name of the service to be checked.",
 				Required: true,
 			},
 			&cli.StringFlag{
 				Name: "port",
 				Aliases: []string{"p"},
-				Usage: "Port number of the service to be checked",
+				Usage: "Port number of the service to be checked.",
 				Required: false,
 			},
 		},
